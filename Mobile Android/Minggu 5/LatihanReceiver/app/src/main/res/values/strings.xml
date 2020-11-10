@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">LatihanReceiver</string>
+    <string name="send_custom_broadcast">send Custom Broadcast</string>
+    <string name="custom_broadcast_toast">Custom Broadcast Received</string>
+    <string name="power_connect">Power Connect</string>
+    <string name="power_disconnect">Power Disconnect</string>
+</resources>
