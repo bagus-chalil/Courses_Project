@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">LatihanStandUpAlarm</string>
+    <string name="stand_alarm">Stand up Alarm</string>
+    <string name="alarm_aktif">Alarm Diaktifkan</string>
+    <string name="alarm_nonaktif">Alarm Dinonaktifkan</string>
+    <string name="notifikasi_judul">Tolong Berdiri</string>
+    <string name="notifikasi_isi">Kamu harus berdiri atau berjalan sekitar 15 menit untuk menjaga kesehatan</string>
+</resources>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">JadwalKRS</string>
+    <string name="txt_judul">Alarm Kuliah</string>
+    <string name="txt_subjudul">Set Alarm 30 menit sebelum Kuliah</string>
+    <string name="set_alarm">Set Alarm</string>
+    <string name="set_alarm_again">Set Alarm again</string>
+    <string name="head">Alarm Kuliah</string>
+    <string name="content">Ayoo Kuliah</string>
+</resources>
