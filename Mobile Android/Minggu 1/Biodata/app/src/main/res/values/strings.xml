@@ -1,0 +1,14 @@
+<resources>
+    <string name="biodata">My Biodata</string>
+    <string name="nim">NIM :</string>
+    <string name="nim1">A22.2019.02733</string>
+    <string name="nama">Nama    : </string>
+    <string name="nama1">M Bagus Chail Akbar</string>
+    <string name="alamat">Alamat  : </string>
+    <string name="alamat1">Jln Pedurungan Tengah IV No 40</string>
+    <string name="telepon">Telepon : </string>
+    <string name="telepon1">087825814146</string>
+    <string name="email">Email     : </string>
+    <string name="email1">bagusakbar482@gmail.com</string>
+
+</resources>
