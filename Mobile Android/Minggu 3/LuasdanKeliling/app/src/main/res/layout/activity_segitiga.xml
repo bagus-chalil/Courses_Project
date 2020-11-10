@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".segitiga">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/subjudul_s"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="25dp"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center"
+                android:background="@color/segitiga"
+                android:textSize="25sp"
+                android:text="@string/segitiga" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="75dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/luas_s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/luas"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/alas"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="@string/alas"
+                    android:textSize="10sp" />
+                <EditText
+                    android:id="@+id/alas_sl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                    android:id="@+id/tinggi"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="@string/tinggi"
+                    android:textSize="10sp" />
+                <EditText
+                    android:id="@+id/tinggi_sl"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:inputType="numberDecimal"/>
+                <Button
+                    android:id="@+id/btn_luas2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="230dp"
+                    android:text="@string/hitung"
+                    android:onClick="btn_luas_s"/>
+                <TextView
+                    android:id="@+id/hasil_s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hasil_l"
+                    android:textSize="20sp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="325dp"
+                android:layout_marginHorizontal="15dp"
+                android:orientation="vertical">
+                <TextView
+                    android:id="@+id/keliling_s"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="@string/keliling"
+                    android:textSize="20sp" />
+                <TextView
+                    android:id="@+id/sisi1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Masukkan Sisi A :"
+                    android:textSize="10sp" />
+                <EditText
+                    android:id="@+id/sisiA"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                    android:id="@+id/sisi2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Masukkan Sisi B :"
+                    android:textSize="10sp" />
+                <EditText
+                    android:id="@+id/sisiB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:inputType="numberDecimal"/>
+                <TextView
+                    android:id="@+id/sisi3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:text="Masukkan sisi C :"
+                    android:textSize="10sp" />
+                <EditText
+                    android:id="@+id/sisiC"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="12sp"
+                    android:inputType="numberDecimal"/>
+                <Button
+                    android:id="@+id/btn_kel2"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="230dp"
+                    android:text="@string/hitung"
+                    android:onClick="btn_keliling_s"/>
+                <TextView
+                    android:id="@+id/hasil_k"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/hasil_k"
+                    android:textSize="20sp"/>
+                <Button
+                    android:id="@+id/back"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:text="back"
+                    android:onClick="back"
+                    android:background="@color/back"
+                    android:layout_marginLeft="225dp"/>
+                <Button
+                    android:id="@+id/reset"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Reset"
+                    android:background="@color/reset"
+                    android:onClick="reset"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

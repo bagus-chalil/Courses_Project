@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LuasdanKeliling</string>
+    <string name="judul">LUAS DAN KELILINGKU</string>
+    <string name="subjudul">Pilih Bangun Datar atau Bangun Ruang :</string>
+
+    <string name="persegi">Persegi</string>
+    <string name="segitiga">Segitiga</string>
+    <string name="lingkaran">Lingkaran</string>
+    <string name="kubus">Kubus</string>
+
+    <string name="luas">Menghitung Luas :</string>
+    <string name="keliling">Menghitung Keliling :</string>
+    <string name="panjang">Masukkan Panjang :</string>
+    <string name="alas">Masukkan Alas :</string>
+    <string name="tinggi">Masukkan Tinggi :</string>
+    <string name="lebar">Masukkan Lebar :</string>
+    <string name="hitung">Hitung</string>
+    <string name="hasil_k">Hasil Keliling :</string>
+    <string name="hasil_l">Hasil Luas :</string>
+    <string name="jari">Masukkan Jari-jari :</string>
+
+</resources>

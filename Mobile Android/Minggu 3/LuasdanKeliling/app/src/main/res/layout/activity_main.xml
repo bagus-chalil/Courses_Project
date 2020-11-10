@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="10dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/judul"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:textSize="28sp"
+        android:text="@string/judul" />
+    <TextView
+        android:id="@+id/subjudul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="25dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/judul"
+        android:textStyle="bold"
+        android:textColor="@color/subjudul"
+        android:textAlignment="center"
+        android:textSize="15sp"
+        android:text="@string/subjudul" />
+    <Button
+        android:id="@+id/persegi"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/subjudul"
+        android:layout_marginTop="50dp"
+        android:text="@string/persegi"
+        android:background="@color/persegi"
+        android:onClick="btn_persegi"/>
+    <Button
+        android:id="@+id/segitiga"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/persegi"
+        android:layout_marginTop="25dp"
+        android:text="@string/segitiga"
+        android:background="@color/segitiga"
+        android:onClick="btn_segitiga"/>
+    <Button
+        android:id="@+id/lingkaran"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/segitiga"
+        android:layout_marginTop="25dp"
+        android:text="@string/lingkaran"
+        android:background="@color/lingkaran"
+        android:onClick="btn_lingkaran"/>
+    <Button
+        android:id="@+id/kubus"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/lingkaran"
+        android:layout_marginTop="25dp"
+        android:text="@string/kubus"
+        android:background="@color/kubus"
+        android:onClick="btn_kubus"/>
+
+</RelativeLayout>

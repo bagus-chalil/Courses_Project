@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#E9EFEF</color>
+    <color name="bg">#6000BCD4</color>
+    <color name="judul">#0F7CD3</color>
+    <color name="subjudul">#172363</color>
+    <color name="persegi">#7084ED</color>
+    <color name="segitiga">#78DA7C</color>
+    <color name="lingkaran">#FDEF6F</color>
+    <color name="kubus">#ED8868</color>
+    <color name="reset">#F87FA8</color>
+    <color name="back">#81EDE9</color>
+</resources>
