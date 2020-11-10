@@ -1,0 +1,22 @@
+<resources>
+    <string name="biodata">MY BIODATA</string>
+    <string name="nim">NIM :</string>
+    <string name="nim1">A22.2019.02733</string>
+    <string name="nama">Nama    : </string>
+    <string name="nama1">M Bagus Chail Akbar</string>
+    <string name="alamat">Alamat  : </string>
+    <string name="alamat1">Jln Pedurungan Tengah IV No 40</string>
+    <string name="telepon">Telepon : </string>
+    <string name="telepon1">087825814146</string>
+    <string name="email">Email     : </string>
+    <string name="email1">bagusakbar482@gmail.com</string>
+    <string name="app_name" />
+    <string name="pendidikan">Pendidikan :</string>
+    <string name="sd">2007 - 2013 : SDN Pandean Lamper 1</string>
+    <string name="smp">2013 - 2016 : SMPN 15 Semarang</string>
+    <string name="sma">2016 - 2019 : SMAN 2 Semarang</string>
+    <string name="hobi">Hobi :</string>
+    <string name="hobi1">Tidak Tahu</string>
+
+
+</resources>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Orang1</string>
+
+    <string name="header_reply">Balasan diterima</string>
+    <string name="submit">Kirim</string>
+    <string name="edit">Tulis Pesan...</string>
+
+    <string name="appname1">Orang2s</string>
+    <string name="header">Pesan diterima</string>
+    <string name="submit1">Balas</string>
+    <string name="edit1">Tulis Balasan..</string>
+</resources>
