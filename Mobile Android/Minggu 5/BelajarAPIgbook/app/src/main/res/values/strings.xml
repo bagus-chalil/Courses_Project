@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">BelajarAPIgbook</string>
+    <string name="instruksi">Silahkan masukan bagian dari nama buku untuk mengetahui judul serta penulis buku</string>
+    <string name="masukkan_hint">Masukkan Judul Buku</string>
+    <string name="button_text">Cari Buku</string>
+    <string name="hasil_gagal">Hasil Tidak ditemukan !</string>
+    <string name="no_search_term">Tolong Input dengan benar !</string>
+    <string name="no_network">Cek koneksi Internet dan coba lagi !</string>
+    <string name="loading">Mohon Tunggu Sebentar...</string>
+</resources>

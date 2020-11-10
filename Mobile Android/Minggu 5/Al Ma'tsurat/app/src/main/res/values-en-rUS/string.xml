@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Material Me!</string>
+    <string name="title_placeholder">Title</string>
+    <string name="news_label">Al Ma\'tsurat</string>
+    <string name="news_info_placeholder">Here is some news</string>
+    <string name="news_image">Sports Image</string>
+
+    <string-array name="matsurat_titles">
+        <item>Halaman 1</item>
+        <item>Halaman 2</item>
+        <item>Halaman 3</item>
+        <item>Halaman 4</item>
+        <item>Halaman 5</item>
+    </string-array>
+
+    <string-array name="matsurat_info">
+        <item>Here is some Technology news!</item>
+        <item>Here is some Astronomi news!</item>
+        <item>Here is some Sosial Media news!</item>
+        <item>Here is some Bowling news!</item>
+        <item>Here is some Cycling news!</item>
+    </string-array>
+
+    <array name="matsurat_images">
+        <item>@drawable/a</item>
+        <item>@drawable/b</item>
+        <item>@drawable/c</item>
+        <item>@drawable/d</item>
+        <item>@drawable/e</item>
+    </array>
+
+</resources>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <include layout="@layout/content_main" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp">
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/nitendo"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="105dp"
+        android:src="@drawable/nitendo"
+        app:civ_border_color="@color/icon1"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/colorPrimary"
+        app:civ_shadow_radius="10"
+        android:onClick="btn_nitendo"/>
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/xbox"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/nitendo"
+        android:src="@drawable/xbox"
+        app:civ_border_color="@color/icon2"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/colorPrimary"
+        app:civ_shadow_radius="10"
+        android:onClick="btn_xbox"/>
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:id="@+id/ps4"
+        android:layout_width="125dp"
+        android:layout_height="125dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/xbox"
+        android:src="@drawable/ps4"
+        app:civ_border_color="@color/icon3"
+        app:civ_border_width="4dp"
+        app:civ_shadow="true"
+        app:civ_shadow_color="@color/colorPrimary"
+        app:civ_shadow_radius="10"
+        android:onClick="btn_ps"/>
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_map"/>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

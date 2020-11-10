@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Droid Rental</string>
+    <string name="action_contact">Contact</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    
+    <string name="text_intro">Droid Play</string>
+    <string name="text_subintro">Choose a Console :</string>
+
+    <string name="text_nitendo">Discover Nintendo Switch, the video game system you can play at home or on the go.
+        Plus, get the latest games and news on the official Nintendo site.</string>
+    <string name="text_xbox">Experience the new generation of games and entertainment with Xbox.
+        Explore consoles, new and old Xbox games and accessories to start or add to yourself</string>
+    <string name="text_ps4">The PlayStation 4 offers easy access to the best gaming and entertainment available.
+        Whether you want to enjoy online multiplayer gaming with PlayStation Plus</string>
+    
+    <string name="messaga1">You Success Order Nitendo</string>
+    <string name="messaga2">You Success Order XBOX</string>
+    <string name="messaga3">You Success Order PS4</string>
+    
+    <string name="order">Order</string>
+    <string name="status">Status</string>
+    
+    <string name="action_order_message">You Selected Order</string>
+    <string name="action_status_message">You Selected Status</string>
+    <string name="action_favourite_message">You Selected Favourite</string>
+    <string name="action_contact_message">You Selected Message</string>
+
+    <string name="google_mtv_coord_zoom12">geo:37.422114,-122.086744?z=12</string>
+</resources>
